@@ -1,8 +1,9 @@
 import './App.css';
+import Example from './components/Header';
 
 function App() {
   return (
-    <h1>hi</h1>
+      <Example/>
   );
 }
 
