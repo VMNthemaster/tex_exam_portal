@@ -1,9 +1,14 @@
 import './App.css';
-import Example from './components/Header';
+import Header from './components/Header';
+import ViewExam from './components/ViewExam';
+import ViewExam2 from './components/ViewExam/index2';
 
 function App() {
   return (
-      <Example/>
+    <>
+      <Header/>
+      <ViewExam2/>
+    </>
   );
 }
 
